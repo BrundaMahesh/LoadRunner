@@ -1,0 +1,17 @@
+HTTP/2.0 200
+Status: 200
+server: nginx
+date: Tue, 06 Feb 2024 10:47:30 GMT
+content-length: 156
+set-cookie: m=31606955-3283-494c-98c9-f2c759a81f54f61b23;Expires=Thu, 05-Feb-2026 10:47:30 GMT;Secure;HttpOnly; SameSite=None
+x-content-type-options: nosniff
+x-stripe-server-envoy-start-time-us: 1707216450899688
+x-stripe-server-envoy-upstream-service-time-ms: 2
+x-stripe-bg-intended-route-color: green
+x-stripe-client-envoy-start-time-us: 1707216450899087
+access-control-allow-origin: https://m.stripe.network
+access-control-allow-credentials: true
+access-control-allow-headers: Content-Type
+strict-transport-security: max-age=31556926; includeSubDomains; preload
+content-type: application/json;charset=utf-8
+

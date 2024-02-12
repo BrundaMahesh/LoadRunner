@@ -1,0 +1,32 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Custom Request: log",
+                "infFile": "t2.inf",
+                "time": 1707298165024
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Custom Request: json",
+                "infFile": "t3.inf",
+                "time": 1707298166809
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: LoadRunner",
+                "infFile": "t4.inf",
+                "time": 1707298168336
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Custom Request: json_2",
+                "infFile": "t5.inf",
+                "time": 1707298168607
+            }
+        ],
+        "transactions": []
+    }
+]

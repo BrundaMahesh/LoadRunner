@@ -1,0 +1,15 @@
+OPTIONS /ads/CEBIP53J.json?segment=placement:reqresin-sponsor HTTP/1.1
+Host: srv.buysellads.com
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: x-client,x-origin
+Origin: https://reqres.in
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Dest: empty
+Referer: https://reqres.in/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9
+

@@ -1,0 +1,32 @@
+[
+    {
+        "actionName": "Dynamic_Table",
+        "steps": [
+            {
+                "stepId": "STEP2",
+                "stepName": "Custom Request: json",
+                "infFile": "t2.inf",
+                "time": 1707455024964
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: dynamictable",
+                "infFile": "t3.inf",
+                "time": 1707455025586
+            }
+        ],
+        "transactions": []
+    },
+    {
+        "actionName": "Dynamic_ID",
+        "steps": [
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: dynamicid",
+                "infFile": "t4.inf",
+                "time": 1707455026559
+            }
+        ],
+        "transactions": []
+    }
+]

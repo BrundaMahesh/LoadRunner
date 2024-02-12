@@ -1,0 +1,32 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: katalon-demo-cura.herokuapp.com",
+                "infFile": "t1.inf",
+                "time": 1707383954630
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: profile.php",
+                "infFile": "t2.inf",
+                "time": 1707383954954
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Custom Request: json",
+                "infFile": "t3.inf",
+                "time": 1707383955376
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Data: authenticate.php",
+                "infFile": "t4.inf",
+                "time": 1707383955887
+            }
+        ],
+        "transactions": []
+    }
+]

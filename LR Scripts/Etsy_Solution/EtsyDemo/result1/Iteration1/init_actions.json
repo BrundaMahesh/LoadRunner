@@ -1,0 +1,38 @@
+[
+    {
+        "actionName": "vuser_init",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: www.etsy.com",
+                "infFile": "t1.inf",
+                "time": 1707733178412
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: catnav",
+                "infFile": "t3.inf",
+                "time": 1707733179538
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Custom Request: tags.js_2",
+                "infFile": "t4.inf",
+                "time": 1707733179607
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Custom Request: listings-map-ajax",
+                "infFile": "t5.inf",
+                "time": 1707733179935
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: submenu",
+                "infFile": "t7.inf",
+                "time": 1707733182017
+            }
+        ],
+        "transactions": []
+    }
+]

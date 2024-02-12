@@ -1,0 +1,63 @@
+Virtual User Script started at: 09-02-2024 14:43:27
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2023.0.0 for Windows 10; build 506 (Mar 08 2023 13:11:40)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "D:\LR Scripts\Best Practice\Uitestingplayground_Checks\\default.cfg"  	[MsgId: MMSG-27141]
+vuser_init.c(12): web_set_sockets_option started  	[MsgId: MMSG-26355]
+vuser_init.c(12): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+vuser_init.c(14): web_reg_find started  	[MsgId: MMSG-26355]
+vuser_init.c(14): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+vuser_init.c(17): web_url("uitestingplayground.com") started  	[MsgId: MMSG-26355]
+vuser_init.c(17): Found resource "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" in HTML "http://uitestingplayground.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(17): Found resource "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" in HTML "http://uitestingplayground.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(17): Found resource "http://uitestingplayground.com/static/prism.css" in HTML "http://uitestingplayground.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(17): Found resource "http://uitestingplayground.com/static/style.css" in HTML "http://uitestingplayground.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(17): Found resource "http://uitestingplayground.com/static/cube.png" in HTML "http://uitestingplayground.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(17): Found resource "https://buttons.github.io/buttons.js" in HTML "http://uitestingplayground.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(17): Found resource "http://uitestingplayground.com/static/prism.js" in HTML "http://uitestingplayground.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(17): Found resource "https://code.jquery.com/jquery-3.2.1.min.js" in HTML "http://uitestingplayground.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(17): Found resource "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" in HTML "http://uitestingplayground.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(17): Found resource "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" in HTML "http://uitestingplayground.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(17): Registered web_reg_find successful for "Text=UI Test Automation Playground" (count=1)  	[MsgId: MMSG-26364]
+vuser_init.c(17): web_url("uitestingplayground.com") was successful, 273135 body bytes, 7021 header bytes  	[MsgId: MMSG-26386]
+vuser_init.c(27): web_concurrent_start started  	[MsgId: MMSG-26355]
+vuser_init.c(27): web_concurrent_start was successful  	[MsgId: MMSG-26392]
+vuser_init.c(29): web_url("seed") started  	[MsgId: MMSG-26355]
+vuser_init.c(29): Registering web_url("seed") was successful  	[MsgId: MMSG-26390]
+vuser_init.c(38): web_url("fork.png") started  	[MsgId: MMSG-26355]
+vuser_init.c(38): Registering web_url("fork.png") was successful  	[MsgId: MMSG-26390]
+vuser_init.c(48): web_concurrent_end started  	[MsgId: MMSG-26355]
+vuser_init.c(48): web_concurrent_end was successful, 372036 body bytes, 682 header bytes  	[MsgId: MMSG-26386]
+vuser_init.c(50): web_image_check started  	[MsgId: MMSG-26355]
+vuser_init.c(50): "cube_image_check" succeeded (1 occurrence(s) found. Alt="", Src="/static/cube.png")  	[MsgId: MMSG-27192]
+vuser_init.c(50): web_image_check was successful  	[MsgId: MMSG-26392]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Warning -27077: The "vuser_init" section contains web function(s) when the "Simulate a new user on each iteration" Runtime Setting is ON.  This may produce unpredictable results with multiple iterations  	[MsgId: MWAR-27077]
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(6): lr_think_time: 49.00 seconds.
+Action.c(8): web_custom_request("json") started  	[MsgId: MMSG-26355]
+Action.c(8): web_custom_request("json") was successful, 1361 body bytes, 1081 header bytes  	[MsgId: MMSG-26386]
+Action.c(40): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(40): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(43): web_url("dynamicid") started  	[MsgId: MMSG-26355]
+Action.c(43): Resource "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(43): Resource "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(43): Found resource "http://uitestingplayground.com/static/prism.css" in HTML "http://uitestingplayground.com/dynamicid"  	[MsgId: MMSG-26659]
+Action.c(43): Found resource "http://uitestingplayground.com/static/style.css" in HTML "http://uitestingplayground.com/dynamicid"  	[MsgId: MMSG-26659]
+Action.c(43): Resource "https://buttons.github.io/buttons.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(43): Found resource "http://uitestingplayground.com/static/prism.js" in HTML "http://uitestingplayground.com/dynamicid"  	[MsgId: MMSG-26659]
+Action.c(43): Resource "https://code.jquery.com/jquery-3.2.1.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(43): Resource "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(43): Resource "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(43): Registered web_reg_find successful for "Text=Dynamic ID" (count=3)  	[MsgId: MMSG-26364]
+Action.c(43): web_url("dynamicid") was successful, 1860 body bytes, 1090 header bytes  	[MsgId: MMSG-26386]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

@@ -1,0 +1,13 @@
+[t5]
+FileName1=t5.htm
+URL1=https://thinking-tester-contact-list.herokuapp.com/addUser
+Total=2
+RequestHeaderFile=t5_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t5_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_5.xml
+FileName2=t5_addUser.html
+URL2=https://thinking-tester-contact-list.herokuapp.com/js/addUser.js
+[ProtocolInfo]
+ProtocolId=QTWeb

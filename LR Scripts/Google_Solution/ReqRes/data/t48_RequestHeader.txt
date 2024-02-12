@@ -1,0 +1,19 @@
+PUT /api/users/2 HTTP/1.1
+Host: reqres.in
+Connection: keep-alive
+Content-Length: 41
+sec-ch-ua: "Not A(Brand";v="99", "Google Chrome";v="121", "Chromium";v="121"
+sec-ch-ua-platform: "Windows"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Content-Type: application/json
+Accept: */*
+Origin: https://reqres.in
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://reqres.in/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9
+Cookie: _ga=GA1.2.1676242383.1707214142; _gid=GA1.2.381025571.1707214142; __stripe_mid=dbacca52-8130-4ba9-9750-edd3b0917eb6443100; __stripe_sid=57dd91a3-6341-4b94-8694-7757316b7746d84fdf
+

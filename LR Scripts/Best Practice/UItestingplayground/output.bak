@@ -1,0 +1,60 @@
+Virtual User Script started at: 09-02-2024 10:25:47
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2023.0.0 for Windows 10; build 506 (Mar 08 2023 13:11:40)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "D:\LR Scripts\Best Practice\UItestingplayground\\default.cfg"  	[MsgId: MMSG-27141]
+vuser_init.c(12): web_url("uitestingplayground.com") started  	[MsgId: MMSG-26355]
+vuser_init.c(12): Found resource "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" in HTML "http://uitestingplayground.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(12): Found resource "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" in HTML "http://uitestingplayground.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(12): Found resource "http://uitestingplayground.com/static/prism.css" in HTML "http://uitestingplayground.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(12): Found resource "http://uitestingplayground.com/static/style.css" in HTML "http://uitestingplayground.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(12): Found resource "http://uitestingplayground.com/static/cube.png" in HTML "http://uitestingplayground.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(12): Found resource "https://buttons.github.io/buttons.js" in HTML "http://uitestingplayground.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(12): Found resource "http://uitestingplayground.com/static/prism.js" in HTML "http://uitestingplayground.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(12): Found resource "https://code.jquery.com/jquery-3.2.1.min.js" in HTML "http://uitestingplayground.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(12): Found resource "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" in HTML "http://uitestingplayground.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(12): Found resource "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" in HTML "http://uitestingplayground.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(12): web_url("uitestingplayground.com") was successful, 273135 body bytes, 7027 header bytes  	[MsgId: MMSG-26386]
+vuser_init.c(22): web_set_sockets_option started  	[MsgId: MMSG-26355]
+vuser_init.c(22): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+vuser_init.c(24): web_url("fork.png") started  	[MsgId: MMSG-26355]
+vuser_init.c(24): web_url("fork.png") was successful, 324 body bytes, 305 header bytes  	[MsgId: MMSG-26386]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Warning -27077: The "vuser_init" section contains web function(s) when the "Simulate a new user on each iteration" Runtime Setting is ON.  This may produce unpredictable results with multiple iterations  	[MsgId: MWAR-27077]
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(6): web_custom_request("json") started  	[MsgId: MMSG-26355]
+Action.c(6): web_custom_request("json") was successful, 890 body bytes, 1085 header bytes  	[MsgId: MMSG-26386]
+Action.c(42): web_url("dynamictable") started  	[MsgId: MMSG-26355]
+Action.c(42): Resource "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(42): Resource "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(42): Found resource "http://uitestingplayground.com/static/prism.css" in HTML "http://uitestingplayground.com/dynamictable"  	[MsgId: MMSG-26659]
+Action.c(42): Found resource "http://uitestingplayground.com/static/style.css" in HTML "http://uitestingplayground.com/dynamictable"  	[MsgId: MMSG-26659]
+Action.c(42): Resource "https://buttons.github.io/buttons.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(42): Found resource "http://uitestingplayground.com/static/prism.js" in HTML "http://uitestingplayground.com/dynamictable"  	[MsgId: MMSG-26659]
+Action.c(42): Resource "https://code.jquery.com/jquery-3.2.1.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(42): Resource "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(42): Resource "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(42): web_url("dynamictable") was successful, 2080 body bytes, 1091 header bytes  	[MsgId: MMSG-26386]
+Action.c(56): web_url("threatListUpdates:fetch") started  	[MsgId: MMSG-26355]
+Action.c(56): web_url("threatListUpdates:fetch") was successful, 2379 body bytes, 368 header bytes  	[MsgId: MMSG-26386]
+Action.c(71): web_url("dynamicid") started  	[MsgId: MMSG-26355]
+Action.c(71): Resource "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(71): Resource "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(71): Found resource "http://uitestingplayground.com/static/prism.css" in HTML "http://uitestingplayground.com/dynamicid"  	[MsgId: MMSG-26659]
+Action.c(71): Found resource "http://uitestingplayground.com/static/style.css" in HTML "http://uitestingplayground.com/dynamicid"  	[MsgId: MMSG-26659]
+Action.c(71): Resource "https://buttons.github.io/buttons.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(71): Found resource "http://uitestingplayground.com/static/prism.js" in HTML "http://uitestingplayground.com/dynamicid"  	[MsgId: MMSG-26659]
+Action.c(71): Resource "https://code.jquery.com/jquery-3.2.1.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(71): Resource "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(71): Resource "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(71): web_url("dynamicid") was successful, 1860 body bytes, 1090 header bytes  	[MsgId: MMSG-26386]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

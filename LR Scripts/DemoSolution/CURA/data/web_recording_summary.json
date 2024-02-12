@@ -1,0 +1,343 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "x-http-method-override",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-goog-update-updater",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-goog-update-interactivity",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-goog-update-appid",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-client-data",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-user",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-site",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-mode",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-dest",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua-platform",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua-mobile",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "pragma",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "content-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "authorization",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/jpeg"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/x-protobuf"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/vnd.google.octet-stream-compressible"
+    },
+    {
+      "IsNonResource": true,
+      "type": "application/json"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/javascript"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 6,
+    "RecordedBrowser": "Chrome",
+    "RecordingDate": "Feb-08-2024",
+    "RecordingDuration": 142297,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1707366723,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 411191,
+    "TotalBytesSent": 20533,
+    "TotalRequests": 14,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "herokuapp.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "18.211.231.38",
+          "IncludeInScript": true,
+          "Name": "katalon-demo-cura.herokuapp.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 266,
+              "EventId": 196,
+              "HttpStatus": 200,
+              "Size": 4234,
+              "URL": "https://katalon-demo-cura.herokuapp.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 250,
+              "EventId": 194,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://katalon-demo-cura.herokuapp.com/authenticate.php?logout"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 234,
+              "EventId": 174,
+              "HttpStatus": 200,
+              "Size": 8280,
+              "URL": "https://katalon-demo-cura.herokuapp.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 250,
+              "EventId": 172,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://katalon-demo-cura.herokuapp.com/authenticate.php"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 250,
+              "EventId": 137,
+              "HttpStatus": 200,
+              "Size": 7261,
+              "URL": "https://katalon-demo-cura.herokuapp.com/profile.php"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 234,
+              "EventId": 105,
+              "HttpStatus": 404,
+              "Size": 196,
+              "URL": "https://katalon-demo-cura.herokuapp.com/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 265,
+              "EventId": 60,
+              "HttpStatus": 200,
+              "Size": 379361,
+              "URL": "https://katalon-demo-cura.herokuapp.com//img/header.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 234,
+              "EventId": 33,
+              "HttpStatus": 200,
+              "Size": 1589,
+              "URL": "https://katalon-demo-cura.herokuapp.com//js/theme.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 250,
+              "EventId": 16,
+              "HttpStatus": 200,
+              "Size": 3211,
+              "URL": "https://katalon-demo-cura.herokuapp.com//css/theme.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 250,
+              "EventId": 11,
+              "HttpStatus": 200,
+              "Size": 4234,
+              "URL": "https://katalon-demo-cura.herokuapp.com/"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googleapis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.205.227",
+          "IncludeInScript": true,
+          "Name": "update.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 281,
+              "EventId": 158,
+              "HttpStatus": 200,
+              "Size": 909,
+              "URL": "https://update.googleapis.com/service/update2/json?cup2key=13:W0YUJZMj0_1gdOIB50DiM1u4D05CTBNgWcUQ5qeC2dU&cup2hreq=36a30838433806db6c915949afd1ef6be1a1a74bd9e717a5e76cdac4846d3e33"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.195.138",
+          "IncludeInScript": true,
+          "Name": "safebrowsing.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 32,
+              "EventId": 212,
+              "HttpStatus": 200,
+              "Size": 754,
+              "URL": "https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$req=Ch4KDGdvb2dsZWNocm9tZRIOMTIxLjAuNjE2Ny4xNDEaKQgFEAEaGwoNCAUQBhgBIgMwMDEwARCrmRUaAhgLhrr5gyIEIAEgAigBGikIARABGhsKDQgBEAYYASIDMDAxMAEQ6OoNGgIYC7h-O6IiBCABIAIoARopCAMQARobCg0IAxAGGAEiAzAwMTABEKHiDRoCGAv0GcW2IgQgASACKAEaKQgOEAEaGwoNCA4QBhgBIgMwMDEwARDYrwcaAhgLMpc_5iIEIAEgAigBGigIARAIGhoKDQgBEAgYASIDMDAxMAQQ4TcaAhgLvwgj8yIEIAEgAigEGikIDxABGhsKDQgPEAYYASIDMDAxMAEQpa0CGgIYCzxsK2wiBCABIAIoARonCAoQCBoZCg0IChAIGAEiAzAwMTABEAcaAhgLYjna-CIEIAEgAigBGicICRABGhkKDQgJEAYYASIDMDAxMAEQIxoCGAuXnkjLIgQgASACKAEaKAgIEAEaGgoNCAgQBhgBIgMwMDEwARCyFRoCGAuvTEX6IgQgASACKAEaKQgNEAEaGwoNCA0QBhgBIgMwMDEwARC6jQIaAhgLQzjRHiIEIAEgAigBGikIBxABGhsKDQgHEAYYASIDMDAxMAEQn7EOGgIYC8lovAUiBCABIAIoARooCBAQARoaCg0IEBAGGAEiAzAwMTABEJMhGgIYCwafaK8iBCABIAIoASICCAE=&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.196.10",
+          "IncludeInScript": true,
+          "Name": "fonts.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 62,
+              "EventId": 51,
+              "HttpStatus": 200,
+              "Size": 907,
+              "URL": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.193.142",
+          "IncludeInScript": true,
+          "Name": "clients4.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/vnd.google.octet-stream-compressible",
+              "DownloadTime": 343,
+              "EventId": 129,
+              "HttpStatus": 200,
+              "Size": 255,
+              "URL": "https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=D98tKkiFibQ8vuyuoMQaEQ%3D%3D"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 0
+}

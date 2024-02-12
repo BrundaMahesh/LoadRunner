@@ -1,0 +1,28 @@
+HTTP/1.1 200 OK
+Connection: keep-alive
+Server: Apache
+Strict-Transport-Security: max-age=631138520; includeSubDomains; preload
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block; report=/beacon/csp.php
+X-Content-Type-Options: nosniff
+Cache-Control: max-age=0, no-cache, no-store, private
+X-Etsy-Generated: 1707730988.7
+X-Resource-Type: Public_Neu_RenderedSpecs
+Content-Encoding: gzip
+Content-Type: application/json
+Via: 1.1 google, 1.1 varnish
+x-fastly-backend-reqs: 249
+Accept-Ranges: bytes
+Date: Mon, 12 Feb 2024 09:43:08 GMT
+X-Served-By: cache-hyd1100028-HYD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1707730988.144323,VS0,VE690
+Vary: X-Detected-Locale,Accept-Encoding
+Set-Cookie: exp_ebid=m=nuIADdGJEcV7wA3MyZZX9ZAph4Oqitr59zuNMIAF%2FNc%3D,v=M4zvIy5jWeTlFbi67dR0gQLobhE_hVB0; domain=.etsy.com; path=/; Secure; max-age=5184000
+x-ttfb: 689.599
+x-rtt: 23.351
+server-timing: ttfb_estimate; dur=736.301
+server-timing: cdn_ttfb; dur=689.599
+transfer-encoding: chunked
+

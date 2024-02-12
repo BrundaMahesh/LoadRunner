@@ -1,0 +1,44 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: katalon-demo-cura.herokuapp.com",
+                "infFile": "t1.inf",
+                "time": 1707300840214
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Custom Request: json",
+                "infFile": "t2.inf",
+                "time": 1707300842139
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: profile.php",
+                "infFile": "t3.inf",
+                "time": 1707300842442
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Form: authenticate.php",
+                "infFile": "t4.inf",
+                "time": 1707300843361
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Submit Form: appointment.php",
+                "infFile": "t5.inf",
+                "time": 1707300843673
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Link: CURA Healthcare",
+                "infFile": "t6.inf",
+                "time": 1707300843968
+            }
+        ],
+        "transactions": []
+    }
+]

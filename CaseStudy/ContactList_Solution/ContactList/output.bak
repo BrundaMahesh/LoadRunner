@@ -1,0 +1,37 @@
+Virtual User Script started at: 12-02-2024 16:28:18
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2023.0.0 for Windows 10; build 506 (Mar 08 2023 13:11:40)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "D:\LoadRunner\LR Scripts\ContactList_Solution\ContactList\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_url("seed") started  	[MsgId: MMSG-26355]
+Action.c(6): HTML parsing not performed for Content-Type "application/octet-stream" ("ParseHtmlContentType" Runtime Setting is "TEXT"). URL="https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=121"  	[MsgId: MMSG-26547]
+Action.c(6): web_url("seed") was successful, 388477 body bytes, 377 header bytes  	[MsgId: MMSG-26386]
+Action.c(17): web_url("ChVDaHJvbWUvMTIxLjAuNjE2Ny4xNjESIAmd3CIW3paY3xIFDXhvEhkSBQ3OQUx6IUHXDn_3wAwC") started  	[MsgId: MMSG-26355]
+Action.c(17): Warning -26630: HTTP Status-Code=400 (Bad Request) for "https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTIxLjAuNjE2Ny4xNjESIAmd3CIW3paY3xIFDXhvEhkSBQ3OQUx6IUHXDn_3wAwC?alt=proto"  	[MsgId: MWAR-26630]
+Action.c(17): web_url("ChVDaHJvbWUvMTIxLjAuNjE2Ny4xNjESIAmd3CIW3paY3xIFDXhvEhkSBQ3OQUx6IUHXDn_3wAwC") highest severity level was "warning", 94 body bytes, 370 header bytes  	[MsgId: MMSG-26388]
+Action.c(33): web_url("addUser") started  	[MsgId: MMSG-26355]
+Action.c(33): Found resource "https://thinking-tester-contact-list.herokuapp.com/css/styles.css" in HTML "https://thinking-tester-contact-list.herokuapp.com/addUser"  	[MsgId: MMSG-26659]
+Action.c(33): Found resource "https://thinking-tester-contact-list.herokuapp.com/img/thinkingTesterLogo.png" in HTML "https://thinking-tester-contact-list.herokuapp.com/addUser"  	[MsgId: MMSG-26659]
+Action.c(33): Found resource "https://thinking-tester-contact-list.herokuapp.com/js/addUser.js" in HTML "https://thinking-tester-contact-list.herokuapp.com/addUser"  	[MsgId: MMSG-26659]
+Action.c(33): web_url("addUser") was successful, 15921 body bytes, 3268 header bytes  	[MsgId: MMSG-26386]
+Action.c(47): web_custom_request("json") started  	[MsgId: MMSG-26355]
+Action.c(47): web_custom_request("json") was successful, 879 body bytes, 1085 header bytes  	[MsgId: MMSG-26386]
+Action.c(79): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(79): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(83): web_custom_request("users") started  	[MsgId: MMSG-26355]
+Action.c(83): Error -26630: HTTP Status-Code=400 (Bad Request) for "https://thinking-tester-contact-list.herokuapp.com/users"  	[MsgId: MERR-26630]
+Action.c(83): web_custom_request("users") highest severity level was "ERROR", 45 body bytes, 762 header bytes  	[MsgId: MMSG-26388]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

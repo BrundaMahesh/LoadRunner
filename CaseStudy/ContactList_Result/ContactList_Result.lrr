@@ -1,0 +1,33 @@
+[Scenario]
+Product=LoadRunner Controller
+Version=2023.0.0.0
+Path=Scenario1
+Subject=
+Result_file=D:\LoadRunner\LR Results\ContactList_Result\ContactList_Result.lrr
+Description=
+ResultName=ContactList_Result
+Time_Zone=-19800
+Start_time=1707736033
+Daylight_Bias=0
+Stop_time=1707736596
+[Configuration]
+Public_local=1
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+[Running_mode]
+Start_reason=By command
+Stop_reason=By a user
+[Data Collection]
+FullData=1
+[Scenario_summary]
+Scenario Type=Manual Scenario
+Goal Profile Name=Schedule 1
+Mode=Scenario Scheduling
+Scenario Duration=Start 11 Vusers: 1 every 00:00:15 (HH:MM:SS); Run for 00:05:00 (HH:MM:SS); Stop all Vusers simultaneously
+Load Behavior=Initialize each Vuser just before it runs
+Global Schedule=ST11_1E15;R300;SP11;
+[Scripts]
+EtsyDemo=D:\LoadRunner\LR Scripts\Etsy_Solution\EtsyDemo\EtsyDemo.usr
+[Scripts_types]
+EtsyDemo=Multi+QTWeb

@@ -1,0 +1,29 @@
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 5
+Server: Apache
+Strict-Transport-Security: max-age=631138520; includeSubDomains; preload
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block; report=/beacon/csp.php
+X-Content-Type-Options: nosniff
+Cache-Control: max-age=0, no-cache, no-store, private
+X-Etsy-Generated: 1707730988.34
+X-Resource-Type: Public_NoResult
+Set-Cookie: fve=1707730910.0; expires=Fri, 14 Mar 2025 02:01:28 GMT; Max-Age=34186700; path=/; domain=.etsy.com; secure
+Set-Cookie: _fbp=fb.1.1707730910582.5762905561368783; expires=Sun, 12 May 2024 09:43:08 GMT; Max-Age=7776000; path=/; domain=.etsy.com; secure
+Content-Type: application/json
+Via: 1.1 google, 1.1 varnish
+x-fastly-backend-reqs: 633
+Accept-Ranges: bytes
+Date: Mon, 12 Feb 2024 09:43:08 GMT
+X-Served-By: cache-hyd1100030-HYD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1707730988.195350,VS0,VE270
+Vary: X-Detected-Locale, Accept-Encoding
+Set-Cookie: exp_ebid=m=nuIADdGJEcV7wA3MyZZX9ZAph4Oqitr59zuNMIAF%2FNc%3D,v=M4zvIy5jWeTlFbi67dR0gQLobhE_hVB0; domain=.etsy.com; path=/; Secure; max-age=5184000
+x-ttfb: 270.010
+x-rtt: 51.845
+server-timing: ttfb_estimate; dur=373.700
+server-timing: cdn_ttfb; dur=270.010
+

@@ -135,7 +135,7 @@
 <Res><![CDATA[result1]]></Res>
 <Action rID="T2">
 <AName><![CDATA[vuser_init]]></AName>
-<Summary sTime="12-02-2024 - 16:29:35" eTime="12-02-2024 - 16:29:35" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="20-02-2024 - 17:20:48" eTime="20-02-2024 - 17:20:48" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="5" >
 <Disp><![CDATA[vuser_init Summary]]></Disp>
 </NodeArgs>
@@ -146,102 +146,369 @@
 <Step rID="T5">
 <Obj plainTxt="False" ><![CDATA[Service: Set Sockets Option]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Set socket option <STRONG><FONT COLOR=#00AF00>SSL_VERSION</FONT></STRONG> with value <STRONG><FONT COLOR=#00AF00>AUTO</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[12-02-2024 - 16:29:35]]></Time>
-<TimeTick>1707735575</TimeTick>
+<Time><![CDATA[20-02-2024 - 17:20:48]]></Time>
+<TimeTick>1708429848</TimeTick>
 <NodeArgs eType="General" icon="4" nRep="9" >
 <Disp><![CDATA[Service: Set Sockets Option]]></Disp>
 </NodeArgs>
 </Step>
 <Step rID="T6">
-<Obj plainTxt="False" ><![CDATA[Url: seed]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Resource of content type ""application/octet-stream"" loaded successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[12-02-2024 - 16:29:37]]></Time>
-<TimeTick>1707735577</TimeTick>
-<NodeArgs eType="General" icon="5" nRep="10" status="Passed" >
-<Disp><![CDATA[Url: seed]]></Disp>
+<Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>HSID=A1YSCz6320Fi9npsb; DOMAIN=accounts.google.com</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[20-02-2024 - 17:20:48]]></Time>
+<TimeTick>1708429848</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="10" >
+<Disp><![CDATA[Service: Add Cookie]]></Disp>
 </NodeArgs>
 </Step>
 <Step rID="T7">
-<Obj plainTxt="False" ><![CDATA[Url: ChVDaHJvbWUvMTIxLjAuNjE2Ny4xNjESIAmd3CIW3paY3xIFDXhvEhkSBQ3OQUx6IUHXDn_3wAwC]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Resource loaded successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[12-02-2024 - 16:29:37]]></Time>
-<TimeTick>1707735577</TimeTick>
-<NodeArgs eType="General" icon="5" nRep="11" status="Passed" >
-<Disp><![CDATA[Url: ChVDaHJvbWUvMTIxLjAuNjE2Ny4xNjESIAmd3CIW3paY3xIFDXhvEhkSBQ3OQUx6IUHXDn_3wAwC]]></Disp>
+<Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>SSID=AEAXbGy2lxQtJlgfP; DOMAIN=accounts.google.com</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[20-02-2024 - 17:20:48]]></Time>
+<TimeTick>1708429848</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="11" >
+<Disp><![CDATA[Service: Add Cookie]]></Disp>
 </NodeArgs>
 </Step>
 <Step rID="T8">
-<Obj plainTxt="False" ><![CDATA[Url: addUser]]></Obj>
+<Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>APISID=Ajopl0Bdq8XxzqX8/AJXLAy4BVePX1pw0W; DOMAIN=accounts.google.com</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[20-02-2024 - 17:20:48]]></Time>
+<TimeTick>1708429848</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="12" >
+<Disp><![CDATA[Service: Add Cookie]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T9">
+<Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>SAPISID=ttABToqF2rgKyX9H/AMW0QJk8om1EUbB9J; DOMAIN=accounts.google.com</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[20-02-2024 - 17:20:48]]></Time>
+<TimeTick>1708429848</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="13" >
+<Disp><![CDATA[Service: Add Cookie]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T10">
+<Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>__Secure-1PAPISID=ttABToqF2rgKyX9H/AMW0QJk8om1EUbB9J; DOMAIN=accounts.google.com</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[20-02-2024 - 17:20:48]]></Time>
+<TimeTick>1708429848</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="14" >
+<Disp><![CDATA[Service: Add Cookie]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T11">
+<Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>__Secure-3PAPISID=ttABToqF2rgKyX9H/AMW0QJk8om1EUbB9J; DOMAIN=accounts.google.com</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[20-02-2024 - 17:20:48]]></Time>
+<TimeTick>1708429848</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="15" >
+<Disp><![CDATA[Service: Add Cookie]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T12">
+<Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>ACCOUNT_CHOOSER=AFx_qI7RwVbKXs9RXIqUle2bCBBd0enxUgnNd-Tb3oslMbRdMTPLb3pvTyH-lSyhMdOPZ3uQZZ14fpTb_Qpv2gzmeuJieZKIB-PlJxYqcU3xGXQr_oTLAeJSO0a9ml9OQ8ht6tJasPup; DOMAIN=accounts.google.com</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[20-02-2024 - 17:20:48]]></Time>
+<TimeTick>1708429848</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="16" >
+<Disp><![CDATA[Service: Add Cookie]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T13">
+<Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>SEARCH_SAMESITE=CgQIlZoB; DOMAIN=accounts.google.com</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[20-02-2024 - 17:20:48]]></Time>
+<TimeTick>1708429848</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="17" >
+<Disp><![CDATA[Service: Add Cookie]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T14">
+<Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>__Host-GAPS=1:A-DdSUAP07KQDGVZoRiBp1kvcH-UWBDQJCUE_b9MZhkV4pVIVpHNRQRdIt5bMrmKk-4DkudtE5AacdwwrqXfP3D17o4udw:Zyr-WfECoUa6qzAN; DOMAIN=accounts.google.com</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[20-02-2024 - 17:20:48]]></Time>
+<TimeTick>1708429848</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="18" >
+<Disp><![CDATA[Service: Add Cookie]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T15">
+<Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>SID=g.a000gQhMhabacbofJGr7Rn4XLRn0XrTeHYz7VsuftwXhIMBuR0C-UKF32m57J74E-gGLRsId3QACgYKAQwSAQASFQHGX2MiwwiU3GxsIieHeSG12DvsohoVAUF8yKqf37glM_H_JpRZL_rVJoZe0076; DOMAIN=accounts.google.com</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[20-02-2024 - 17:20:48]]></Time>
+<TimeTick>1708429848</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="19" >
+<Disp><![CDATA[Service: Add Cookie]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T16">
+<Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>__Secure-1PSID=g.a000gQhMhabacbofJGr7Rn4XLRn0XrTeHYz7VsuftwXhIMBuR0C-Vw7b85isL13X8pl7BLzNxwACgYKAU4SAQASFQHGX2Mi8dqYPUxZ5yAdx56d8gi5vBoVAUF8yKrzOA34Cx-XEe4SH_IBcYFB0076; DOMAIN=accounts.google.com</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[20-02-2024 - 17:20:48]]></Time>
+<TimeTick>1708429848</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="20" >
+<Disp><![CDATA[Service: Add Cookie]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T17">
+<Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>__Secure-3PSID=g.a000gQhMhabacbofJGr7Rn4XLRn0XrTeHYz7VsuftwXhIMBuR0C-2XYVJbW3k9r4piEeIqGR6gACgYKAUUSAQASFQHGX2MiKMuUJXDScxwpCxuBMjgHrBoVAUF8yKoW92wMmDROS6MABDnHm0ob0076; DOMAIN=accounts.google.com</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[20-02-2024 - 17:20:48]]></Time>
+<TimeTick>1708429848</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="21" >
+<Disp><![CDATA[Service: Add Cookie]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T18">
+<Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>LSID=o.chromewebstore.google.com|o.mail.google.com|s.IN:g.a000gQhMhaU2bb6C1L-zoM-11wRtftqmKMIVKaiz4z9QSzgW4OYG7sKV9B-xDwhpatEksWE32gACgYKAZ4SAQASFQHGX2Mitqz4oP9RPz1auh1kzOOWpRoVAUF8yKoGTU5HlEexJunuolxY8_fQ0076; DOMAIN=accounts.google.com</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[20-02-2024 - 17:20:48]]></Time>
+<TimeTick>1708429848</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="22" >
+<Disp><![CDATA[Service: Add Cookie]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T19">
+<Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>__Host-1PLSID=o.chromewebstore.google.com|o.mail.google.com|s.IN:g.a000gQhMhaU2bb6C1L-zoM-11wRtftqmKMIVKaiz4z9QSzgW4OYG0AIIsRtmaoFSZzfzgj6q5QACgYKAYgSAQASFQHGX2MiokCrRTvuyIngheDGLpXR7xoVAUF8yKqorlsV1KHojExir61F5T3W0076; DOMAIN=accounts.google.com</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[20-02-2024 - 17:20:48]]></Time>
+<TimeTick>1708429848</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="23" >
+<Disp><![CDATA[Service: Add Cookie]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T20">
+<Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>__Host-3PLSID=o.chromewebstore.google.com|o.mail.google.com|s.IN|s.youtube:g.a000gQhMhaU2bb6C1L-zoM-11wRtftqmKMIVKaiz4z9QSzgW4OYGdt1tqE48d5Tbdvokc3LOwgACgYKAbwSAQASFQHGX2MiU4ElXUwx6tpupaTqVoX2jRoVAUF8yKqZHHi8g-Rs6wytpXOj17Cc0076; DOMAIN=accounts.google.com</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[20-02-2024 - 17:20:48]]></Time>
+<TimeTick>1708429848</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="24" >
+<Disp><![CDATA[Service: Add Cookie]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T21">
+<Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>AEC=Ae3NU9MCQILQA0D1PUcbpaAqXcu6SMjxgAhusIHoCWk9KgIuAdRhaRGP7lU; DOMAIN=accounts.google.com</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[20-02-2024 - 17:20:48]]></Time>
+<TimeTick>1708429848</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="25" >
+<Disp><![CDATA[Service: Add Cookie]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T22">
+<Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>1P_JAR=2024-02-14-09; DOMAIN=accounts.google.com</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[20-02-2024 - 17:20:48]]></Time>
+<TimeTick>1708429848</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="26" >
+<Disp><![CDATA[Service: Add Cookie]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T23">
+<Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>__Secure-1PSIDTS=sidts-CjIBYfD7Z3AS077NgMrIsu9XMEaGYhyalqv41JNuKfjDdmTOk45xieIV-iGnoxPh5w26BxAA; DOMAIN=accounts.google.com</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[20-02-2024 - 17:20:48]]></Time>
+<TimeTick>1708429848</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="27" >
+<Disp><![CDATA[Service: Add Cookie]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T24">
+<Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>__Secure-3PSIDTS=sidts-CjIBYfD7Z3AS077NgMrIsu9XMEaGYhyalqv41JNuKfjDdmTOk45xieIV-iGnoxPh5w26BxAA; DOMAIN=accounts.google.com</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[20-02-2024 - 17:20:48]]></Time>
+<TimeTick>1708429848</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="28" >
+<Disp><![CDATA[Service: Add Cookie]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T25">
+<Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>NID=511=KGEgDvrvMpRx51i1mYeMBxK6rDu5XxTGCGM1g1snc9lMoNW8Twr1AIU1kovh9YM9EK0Zz1C380wz8_K_lYKrpoc0yZZFZBOWbQ2C6wQHTL-c4diUT7tjRUxajby8Qs2ExbynAWDI4_koYvuhKANB0fEArx6JKdaBLbzg6zvD2becHSIv0LkxUVizF33wY_19m91vbXl6l7uSmWXRHaX7zNmVgwiy4UG7abd_-2kOz-8hmDS0oN7PIj2PvPE3BpmC9d54oqgfgqmRnv2QIs0lBQK8LH83ROnj; DOMAIN=accounts.google.com</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[20-02-2024 - 17:20:48]]></Time>
+<TimeTick>1708429848</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="29" >
+<Disp><![CDATA[Service: Add Cookie]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T26">
+<Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>SIDCC=ABTWhQFZT99s_7RKO-L-30qCN7wMv4h69yA8kZ0N5SKQ9_0nhugsBc5evDrcK3u3F_xVGEqQmQ; DOMAIN=accounts.google.com</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[20-02-2024 - 17:20:48]]></Time>
+<TimeTick>1708429848</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="30" >
+<Disp><![CDATA[Service: Add Cookie]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T27">
+<Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>__Secure-1PSIDCC=ABTWhQG19N-gf6xb1bNStqaJgIHqkHq30K8zzJNlcSN1WVjmJXC7eSobWixUQDd6a4VocnCz7k0; DOMAIN=accounts.google.com</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[20-02-2024 - 17:20:48]]></Time>
+<TimeTick>1708429848</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="31" >
+<Disp><![CDATA[Service: Add Cookie]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T28">
+<Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>__Secure-3PSIDCC=ABTWhQHsX9WByFYNF0UOfpw94D1OConBwiHPWtRCLj8UwSaHeJVS7Bp8bcW9ZbzlklW78VaX5H8; DOMAIN=accounts.google.com</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[20-02-2024 - 17:20:48]]></Time>
+<TimeTick>1708429848</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="32" >
+<Disp><![CDATA[Service: Add Cookie]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T29">
+<Obj plainTxt="False" ><![CDATA[Custom Request: ListAccounts]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[12-02-2024 - 16:29:41]]></Time>
-<TimeTick>1707735581</TimeTick>
-<NodeArgs eType="General" icon="5" nRep="12" status="Passed" >
-<Disp><![CDATA[Url: addUser]]></Disp>
+<Time><![CDATA[20-02-2024 - 17:20:50]]></Time>
+<TimeTick>1708429850</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="33" status="Passed" >
+<Disp><![CDATA[Custom Request: ListAccounts]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t1.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T30">
+<Obj plainTxt="False" ><![CDATA[Service: Set Sockets Option]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Set socket option <STRONG><FONT COLOR=#00AF00>TLS_SNI</FONT></STRONG> with value <STRONG><FONT COLOR=#00AF00>0</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[20-02-2024 - 17:20:50]]></Time>
+<TimeTick>1708429850</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="34" >
+<Disp><![CDATA[Service: Set Sockets Option]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T31">
+<Obj plainTxt="False" ><![CDATA[Url: thinking-tester-contact-list.herokuapp.com]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[20-02-2024 - 17:20:52]]></Time>
+<TimeTick>1708429852</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="35" status="Passed" >
+<Disp><![CDATA[Url: thinking-tester-contact-list.herokuapp.com]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t2.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T9">
-<Obj plainTxt="False" ><![CDATA[Custom Request: json]]></Obj>
+<Step rID="T32">
+<Obj plainTxt="False" ><![CDATA[Service: Set Sockets Option]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Set socket option <STRONG><FONT COLOR=#00AF00>TLS_SNI</FONT></STRONG> with value <STRONG><FONT COLOR=#00AF00>1</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[20-02-2024 - 17:20:52]]></Time>
+<TimeTick>1708429852</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="36" >
+<Disp><![CDATA[Service: Set Sockets Option]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T33">
+<Obj plainTxt="False" ><![CDATA[Custom Request: token]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[12-02-2024 - 16:29:41]]></Time>
-<TimeTick>1707735581</TimeTick>
-<NodeArgs eType="General" icon="6" nRep="13" status="Passed" >
-<Disp><![CDATA[Custom Request: json]]></Disp>
+<Time><![CDATA[20-02-2024 - 17:20:52]]></Time>
+<TimeTick>1708429852</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="37" status="Passed" >
+<Disp><![CDATA[Custom Request: token]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t3.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T10">
-<Obj plainTxt="False" ><![CDATA[Service: Set Sockets Option]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER>Set socket option <STRONG><FONT COLOR=#00AF00>TLS_SNI</FONT></STRONG> with value <STRONG><FONT COLOR=#00AF00>0</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[12-02-2024 - 16:29:41]]></Time>
-<TimeTick>1707735581</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="14" >
-<Disp><![CDATA[Service: Set Sockets Option]]></Disp>
-</NodeArgs>
-</Step>
-<Step rID="T11">
-<Obj plainTxt="False" ><![CDATA[Custom Request: users]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#FF0031>Step failed</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[12-02-2024 - 16:29:42]]></Time>
-<TimeTick>1707735582</TimeTick>
-<NodeArgs eType="General" icon="6" nRep="15" status="Failed" >
-<Disp><![CDATA[Custom Request: users]]></Disp>
+<Step rID="T34">
+<Obj plainTxt="False" ><![CDATA[Custom Request: token_2]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[20-02-2024 - 17:20:53]]></Time>
+<TimeTick>1708429853</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="38" status="Passed" >
+<Disp><![CDATA[Custom Request: token_2]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t4.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T12">
-<Obj plainTxt="False" ><![CDATA[Script Aborted!]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#FF0031>Failed</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[12-02-2024 - 16:29:42]]></Time>
-<TimeTick>1707735582</TimeTick>
-<NodeArgs eType="General" icon="1" nRep="16" status="Failed" >
-<Disp><![CDATA[Script Aborted!]]></Disp>
+<Step rID="T35">
+<Obj plainTxt="False" ><![CDATA[Custom Request: json]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[20-02-2024 - 17:20:53]]></Time>
+<TimeTick>1708429853</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="39" status="Passed" >
+<Disp><![CDATA[Custom Request: json]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t5.inf]]></Path>
+</BtmPane>
 </NodeArgs>
 </Step>
-<Summary sTime="12-02-2024 - 16:29:35" eTime="12-02-2024 - 16:29:42" passed="4" failed="2" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="2" nRep="8" status="Failed" >
+<Step rID="T36">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param RegExp]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>tokenParam</FONT></STRONG><BR>RegExp = <STRONG><FONT COLOR=#00AF00>"token":"([^&]+)"</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>1</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[20-02-2024 - 17:20:53]]></Time>
+<TimeTick>1708429853</TimeTick>
+<NodeArgs eType="General" icon="8" nRep="40" >
+<Disp><![CDATA[Service: Reg Save Param RegExp]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T37">
+<Obj plainTxt="False" ><![CDATA[Custom Request: login]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[20-02-2024 - 17:20:54]]></Time>
+<TimeTick>1708429854</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="41" status="Passed" >
+<Disp><![CDATA[Custom Request: login]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t7.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T38">
+<Obj plainTxt="False" ><![CDATA[Url: contactList]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[20-02-2024 - 17:20:55]]></Time>
+<TimeTick>1708429855</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="42" status="Passed" >
+<Disp><![CDATA[Url: contactList]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t8.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T39">
+<Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWQzMDcyZjc2Mzg1MjAwMTMzMmU4YzMiLCJpYXQiOjE3MDg0Mjk5NTl9.D2YW8l2Qpj53KUlA2TesRIFlBqjesiDnt3kQHNFBh_4</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[20-02-2024 - 17:20:55]]></Time>
+<TimeTick>1708429855</TimeTick>
+<NodeArgs eType="General" icon="9" nRep="43" >
+<Disp><![CDATA[Service: Add Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T40">
+<Obj plainTxt="False" ><![CDATA[Custom Request: contacts]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[20-02-2024 - 17:20:55]]></Time>
+<TimeTick>1708429855</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="44" status="Passed" >
+<Disp><![CDATA[Custom Request: contacts]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t9.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Summary sTime="20-02-2024 - 17:20:48" eTime="20-02-2024 - 17:20:55" passed="8" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="8" status="Passed" >
 <Disp><![CDATA[Action Summary]]></Disp>
 </NodeArgs>
 </Action>
-<NodeArgs eType="StartIteration" icon="3" nRep="7" status="Failed" >
+<NodeArgs eType="StartIteration" icon="3" nRep="7" status="Passed" >
 <Disp><![CDATA[ContactList Iteration 1 (Row 1)]]></Disp>
 </NodeArgs>
 </DIter>
-<Action rID="T13">
+<Action rID="T41">
 <AName><![CDATA[vuser_end]]></AName>
-<Summary sTime="12-02-2024 - 16:29:42" eTime="12-02-2024 - 16:29:42" passed="0" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="2" nRep="19" >
+<Summary sTime="20-02-2024 - 17:20:55" eTime="20-02-2024 - 17:20:55" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="47" >
 <Disp><![CDATA[vuser_end Summary]]></Disp>
 </NodeArgs>
 </Action>
-<Summary sTime="12-02-2024 - 16:29:35" eTime="12-02-2024 - 16:29:42" passed="4" failed="2" warnings="0" ></Summary>
-<NodeArgs eType="StartTest" icon="1" nRep="4" status="Failed" >
+<Summary sTime="20-02-2024 - 17:20:48" eTime="20-02-2024 - 17:20:55" passed="8" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartTest" icon="1" nRep="4" status="Passed" >
 <Disp><![CDATA[Test ContactList Summary]]></Disp>
 </NodeArgs>
 </Doc>

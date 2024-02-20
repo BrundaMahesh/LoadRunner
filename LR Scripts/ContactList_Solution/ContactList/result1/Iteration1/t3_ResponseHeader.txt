@@ -1,18 +1,18 @@
-HTTP/1.1 200 OK
-Content-Security-Policy: script-src 'report-sample' 'nonce-g13Hip4NCmT9bDztbK1fVg' 'unsafe-inline' 'strict-dynamic' https: http:;object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: Mon, 01 Jan 1990 00:00:00 GMT
-Date: Mon, 12 Feb 2024 10:57:30 GMT
-X-Cup-Server-Proof: 304402204281988f64c2d5fd65af00ee8ffa442e74a1e142ff7ef45c51651abfcef6cbf002205d386c044151b0c75055e05d6808d884a828867c62283eda2e7c5d35b798c7af:82ee0519935eaa9d0c1f06dfef93ac49f0899420ac605fbb6f8bc90001bf5530
-ETag: W/"304402204281988f64c2d5fd65af00ee8ffa442e74a1e142ff7ef45c51651abfcef6cbf002205d386c044151b0c75055e05d6808d884a828867c62283eda2e7c5d35b798c7af:82ee0519935eaa9d0c1f06dfef93ac49f0899420ac605fbb6f8bc90001bf5530"
-Content-Type: application/json; charset=utf-8
-X-Daynum: 6251
-X-Daystart: 10650
-Content-Encoding: gzip
-X-Content-Type-Options: nosniff
-X-Frame-Options: SAMEORIGIN
-X-XSS-Protection: 1; mode=block
-Content-Length: 878
-Server: GSE
+HTTP/2.0 200
+Status: 200
+expires: Mon, 01 Jan 1990 00:00:00 GMT
+date: Tue, 20 Feb 2024 11:52:38 GMT
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+content-type: application/json; charset=utf-8
+vary: Origin
+vary: X-Origin
+vary: Referer
+content-encoding: gzip
+server: scaffolding on HTTPServer2
+content-length: 397
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
 

@@ -1,0 +1,13 @@
+[t21]
+FileName1=t21.json
+URL1=https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard
+Total=2
+RequestHeaderFile=t21_RequestHeader.txt
+RequestBodyFile=t21_RequestBody.txt
+ResponseHeaderFile=t21_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_21.xml
+FileName2=t21_seed.gz
+URL2=https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=121
+[ProtocolInfo]
+ProtocolId=QTWeb

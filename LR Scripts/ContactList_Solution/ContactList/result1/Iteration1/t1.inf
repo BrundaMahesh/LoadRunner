@@ -1,13 +1,13 @@
 [t1]
 SnapshotXmlFile=snapshot_1.xml
-ContentType=application/octet-stream
-StepName=Url: seed
+ContentType=application/json
+StepName=Custom Request: ListAccounts
 Total=1
-FileName1=t1.csar
+FileName1=t1.json
 RequestHeaderFile=t1_RequestHeader.txt
 ResponseHeaderFile=t1_ResponseHeader.txt
-RawStepEndTime=1707735577454
-RawStepName=seed
+RawStepEndTime=1708429849066
+RawStepName=ListAccounts
 RequestBodyFile=t1_RequestBody.txt
-RawStepStartTime=1707735575853
-URL1=file:
+RawStepStartTime=1708429848608
+URL1=https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard
